@@ -1,0 +1,152 @@
+body {
+  background-color: white;
+  background-image: url("./photo-1492138623748-a1b1f758a762.avif ");
+  background-size: contain;
+  display: grid;
+  grid-template-rows: 100vh;
+  grid-template-columns: auto;
+}
+.Container {
+  background-color: transparent;
+  margin: 0%;
+  padding: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Login {
+  background-color: black;
+  display: grid;
+  grid-template-rows: 90px 70px 70px 100px;
+  grid-template-columns: auto;
+  border-radius: 22px;
+}
+.Heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0%;
+  padding: 0%;
+  border-top-right-radius: 22px;
+  border-top-left-radius: 22px;
+}
+.Heading > h3 {
+  color: white;
+  font-family: "Montserrat";
+  font-size: 1.3rem;
+  font-weight: bolder;
+  margin: 0%;
+  padding: 0%;
+}
+.Heading > i {
+  align-self: flex-start;
+  padding: 0%;
+  margin: 0%;
+  margin-bottom: 12px;
+  padding-left: 12px;
+  color: white;
+}
+.Heading > i:hover {
+  color: #a6a6a6;
+  cursor: pointer;
+}
+.Email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  margin: 0%;
+  padding: 0%;
+  width: 250px;
+  height: 30px;
+  border-radius: 22px;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+.InputBox {
+  width: 295px;
+  height: 40px;
+  background-color: white;
+  border-radius: 100px;
+  margin: 0%;
+  padding: 0%;
+  padding-left: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.Sign-in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-bottom-left-radius: 22px;
+  border-bottom-right-radius: 22px;
+}
+.Sign-in > button {
+  background-color: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(5.2px);
+  width: 100px;
+  height: 50px;
+  margin: 0%;
+  padding: 0%;
+  border-radius: 22px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Sign-in > button:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.Sign-in a {
+  font-family: "baskervville";
+  font-family: 2rem;
+  text-decoration: none;
+  color: black;
+}
+.Sign-in > button > a:hover {
+  color: #fec544;
+}
+.Sign-in > a {
+  margin: 0%;
+  padding: 0%;
+  margin-right: 40px;
+  position: relative;
+  bottom: 12px;
+  align-self: flex-end;
+  text-decoration: none;
+  color: #a6a6a6;
+  font-size: 12px;
+}
+.Text {
+  width: 260px;
+  height: 30px;
+  font-family: "baskervville";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  gap: 5px;
+  margin: 0%;
+  padding: 0%;
+}
+.Text > p {
+  margin: 0%;
+  padding: 0%;
+  color: #a6a6a6;
+}
+.Text > a {
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  color: #5ce1e6;
+}
